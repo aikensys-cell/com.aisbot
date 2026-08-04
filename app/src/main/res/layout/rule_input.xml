@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- EXPLICACIÓ ACTUALITZADA -->
+    <TextView
+        android:id="@+id/rule_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a rule number (minimum 2, maximum 9)"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />
+
+    <!-- LÍNIA AMB INPUT I INFO -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <!-- TEXT RULE -->
+        <TextView
+            android:id="@+id/rule_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rule"
+            android:textSize="16sp" />
+
+        <!-- INPUT DE LA RULE (CORREGIT) -->
+        <EditText
+            android:id="@+id/rule_input"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="1"
+            android:background="@drawable/rule_input_bg"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:padding="4dp" />
+
+        <!-- AI past prompts -->
+        <TextView
+            android:id="@+id/ai_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:text="AI past prompts"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- User past prompts -->
+        <TextView
+            android:id="@+id/user_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:text="User past prompts"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

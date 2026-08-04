@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:fitsSystemWindows="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fitsSystemWindows="false">
+
+            <TextView
+                android:id="@+id/main_text"
+                android:layout_width="520dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:minLines="4"
+                android:maxLines="4"
+                android:scrollbars="none"
+                android:fitsSystemWindows="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/sanbot_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/sanbot_listen_button"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:background="@drawable/sanbot_button_bg"
+            android:src="@drawable/sanbot"
+            android:tint="@null"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="41dp"
+            android:contentDescription="Iniciar escolta del Sanbot" />
+    </FrameLayout>
+
+</FrameLayout>
