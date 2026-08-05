@@ -1,4 +1,4 @@
-# AISbot
+# AISbot an AI assistant for the Sanbot
 
 [![Download APK](https://img.shields.io/badge/Download-AISbot.apk-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aikensys-cell/com.aisbot/releases/latest/download/AISbot.apk)
 
