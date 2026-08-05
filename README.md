@@ -2,6 +2,11 @@
 Aisbot is an Android application for the Sanbot robot that includes a conversational system powered by running on an external server.
 The project uses the latest official SDK for the robot.
 
+# Instructions Manual
+You can check the complete operation guide can be found in the *docs* folder.
+English Manual: AISbot_en.pdf
+Catalan Manual: AISbot.pdf
+
 # SDK documentation
 Everything you need regarding the robot SDK can be found in the *docs* folder.  
 In that document, you will find all information about the robot APIs.  
