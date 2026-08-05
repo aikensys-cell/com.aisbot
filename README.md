@@ -1,4 +1,7 @@
 # AISbot
+
+[![Download APK](https://img.shields.io/badge/Download-AISbot.apk-brightgreen?style=for-the-badge&logo=android&logoColor=white)](Aisbot.apk)
+
 Aisbot is an Android application for the Sanbot robot that includes a conversational system powered by running on an external server.
 The project uses the latest official SDK for the robot.
 
